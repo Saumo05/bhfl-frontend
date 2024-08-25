@@ -9,7 +9,7 @@ function App() {
   const handleSubmit = async () => {
     try {
       const res = await axios.post(
-        "hhttps://bhfl-backend-vym7.vercel.app/",
+        "https://bhfl-backend-vym7.vercel.app/",
         JSON.parse(jsonInput)
       );
 
