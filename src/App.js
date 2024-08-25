@@ -9,7 +9,7 @@ function App() {
   const handleSubmit = async () => {
     try {
       const res = await axios.post(
-        "https://bhfl-backend-drab.vercel.app/",
+        "http://localhost:3000/bfhl",
         JSON.parse(jsonInput)
       );
 
