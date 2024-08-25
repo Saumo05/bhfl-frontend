@@ -9,7 +9,7 @@ function App() {
   const handleSubmit = async () => {
     try {
       const res = await axios.post(
-        "http://localhost:3000/bfhl",
+        "https://bajaj-backend-sepia.vercel.app/bfhl",
         JSON.parse(jsonInput)
       );
 
